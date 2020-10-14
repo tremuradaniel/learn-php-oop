@@ -6,4 +6,7 @@
     <ul>
         <li><a href="/includes/scopeResolutionOperators.inc.php">Scope Resolution Operators</a></li>
     </ul>
+    <ul>
+        <li><a href="/classes/interfaces.class.php">Interfaces</a></li>
+    </ul>
 </div>
