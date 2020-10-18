@@ -14,7 +14,7 @@
             >PHP Data Objects (PDO) db accessing</a></li>
     </ul>
     <ul>
-        <li><a href="/classes/interfaces.class.php">Interfaces</a></li>
+        <li><a href="/classes/interfaces/interfaces.class.php">Interfaces</a></li>
     </ul>
     <ul>
         <li><a href="/includes/scopeResolutionOperators.inc.php"

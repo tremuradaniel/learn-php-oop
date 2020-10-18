@@ -1,5 +1,6 @@
 <?php
     declare(strict_types = 1);
+    require '../vendor/autoload.php';
     // include 'class-autoload.inc.php';
 ?>
 
@@ -15,7 +16,7 @@
                 <?php include 'menu.inc.php'; ?>
             </div>
             <div class="col-9">
-                <form action="includes/calc.inc.php" method="post">
+                <form action="/includes/calc.inc.php" method="post">
                     <p>My own calculator!</p>
                     <input type="number" name="num1" placeholder="First number">
                     <select name="oper" id="">
