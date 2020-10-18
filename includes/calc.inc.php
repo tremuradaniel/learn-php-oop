@@ -1,6 +1,6 @@
 <?php 
     declare(strict_types = 1);
-    include 'class-autoload.inc.php';
+    // include 'class-autoload.inc.php';
     
     $operator = $_POST["oper"];
     $num1 = $_POST["num1"];

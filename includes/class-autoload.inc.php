@@ -12,6 +12,9 @@ function myAutoloader($className) {
 
     $extension = ".class.php";
     $fullPath = $path . $className . $extension;
-
+    if (strpos($fullPath, 'Dotenv') !== false) {
+        return;
+    }
+    
     require_once $fullPath;
 }
