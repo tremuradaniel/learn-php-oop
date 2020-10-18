@@ -19,6 +19,21 @@
                     $testObj = new TestDb();
                     $testObj->getUsers();
                 ?>
+                <hr>
+                <?php 
+                    $testObj2 = new TestDb();
+                    $testObj2->getUsersStmt('admin');
+                ?>
+                <hr>
+                <?php 
+                    $testObj3 = new UsersView;
+                    $testObj3->showUsers('admin');
+                ?>
+                <hr>
+                <?php 
+                    $testObj4 = new UsersContr();
+                    $testObj4->createUser('Anna', 'Smith', "1992-05-14");
+                ?>
             </div>
         </div>
     </div>
